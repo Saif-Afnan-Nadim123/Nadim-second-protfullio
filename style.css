@@ -11,7 +11,7 @@ span {
     color: rgb(8, 241, 241);
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
