@@ -44,7 +44,6 @@ span {
     background-image: url(img/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
-
 }
 
 .experience-item {
@@ -55,7 +54,25 @@ span {
     box-shadow: 10px 10px 40px gray;
 }
 
+#web-dev-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#full-stack-experience {
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(0, 255, 21), cyan);
+    border-image-slice: 1;
+
+}
+
 .color {
     color: rgb(212, 216, 0);
 
+}
+
+footer p {
+    text-align: center;
+    color: rgb(243, 2, 22);
 }
